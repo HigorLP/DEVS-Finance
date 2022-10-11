@@ -18,3 +18,5 @@ Ainda não funcional.
 https://drive.google.com/file/d/1RPevwj4hdsUsyZff-i5nQNaLONO-HLax/view?usp=sharing (Certificação)
 
 --
+
+=> 11 de Outubro de 2022 --> Aula 02 em Anadamento...
