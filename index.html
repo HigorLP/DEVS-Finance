@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/index.css" />
+
     <title>DEV$ Finance</title>
   </head>
-  <body></body>
+  <body>
+    <header><h1 id="logo">DEV$ Finance</h1></header>
+
+    <main class="container">
+      <section id="balance">
+        <h2>Balanço</h2>
+        <div class="card">
+          <h3>Entradas</h3>
+          <p>R$ 5.000,00</p>
+        </div>
+
+        <div class="card">
+          <h3>Saídas</h3>
+          <p>R$ 2.000,00</p>
+        </div>
+
+        <div class="card total">
+          <h3>Total</h3>
+          <p>R$ 3.000,00</p>
+        </div>
+      </section>
+
+      <section id="transactions">
+        <h2>Transações</h2>
+
+        <table id="data-table">
+          <thead>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Data</th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="description">Salário</td>
+              <td class="income">R$ 3.000,00</td>
+              <td class="date">03/10/2022</td>
+            </tr>
+            <tr>
+              <td class="description">Condomínio</td>
+              <td class="expense">- R$ 400,00</td>
+              <td class="date">15/10/2022</td>
+            </tr>
+            <tr>
+              <td class="description">Energia</td>
+              <td class="expense">- R$ 200,00</td>
+              <td class="date">20/10/2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="container">
+      DEV$ Finance - &copy; Maratorna de Programação | Rockeatseat
+    </footer>
+  </body>
 </html>
