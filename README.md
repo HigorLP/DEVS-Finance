@@ -20,3 +20,7 @@ https://drive.google.com/file/d/1RPevwj4hdsUsyZff-i5nQNaLONO-HLax/view?usp=shari
 --
 
 => 11 de Outubro de 2022 --> Aula 02 em Anadamento...
+
+=> 12 de Outubro de 2022 --> Aproximadamente 50% da Aula até então.
+
+--

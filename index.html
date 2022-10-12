@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./style/index.css" />
+    <script src="./js/index.js" defer></script>
 
     <title>DEV$ Finance</title>
   </head>
@@ -18,17 +19,26 @@
       <section id="balance">
         <h2 class="sr-only">Balanço</h2>
         <div class="card">
-          <h3>Entradas</h3>
+          <h3>
+            <span>Entradas</span>
+            <img src="./assets/income.svg" alt="Income Icon" />
+          </h3>
           <p>R$ 5.000,00</p>
         </div>
 
         <div class="card">
-          <h3>Saídas</h3>
+          <h3>
+            <span>Saídas</span>
+            <img src="./assets/expense.svg" alt="Expense Icon" />
+          </h3>
           <p>R$ 2.000,00</p>
         </div>
 
         <div class="card total">
-          <h3>Total</h3>
+          <h3>
+            <span>Total</span>
+            <img src="./assets/dollar.svg" alt="Dollar Icon" />
+          </h3>
           <p>R$ 3.000,00</p>
         </div>
       </section>
@@ -36,11 +46,14 @@
       <section id="transactions">
         <h2 class="sr-only">Transações</h2>
 
+        <a class="button new" href="#">+ Nova Transação</a>
+
         <table id="data-table">
           <thead>
             <th>Descrição</th>
             <th>Valor</th>
             <th>Data</th>
+            <th></th>
           </thead>
 
           <tbody>
@@ -48,21 +61,34 @@
               <td class="description">Salário</td>
               <td class="income">R$ 3.000,00</td>
               <td class="date">03/10/2022</td>
+              <td>
+                <img src="./assets/remove.svg" alt="Remove Transaction" />
+              </td>
             </tr>
             <tr>
               <td class="description">Condomínio</td>
               <td class="expense">- R$ 400,00</td>
               <td class="date">15/10/2022</td>
+              <td>
+                <img src="./assets/remove.svg" alt="Remove Transaction" />
+              </td>
             </tr>
             <tr>
               <td class="description">Energia</td>
               <td class="expense">- R$ 200,00</td>
               <td class="date">20/10/2022</td>
+              <td>
+                <img src="./assets/remove.svg" alt="Remove Transaction" />
+              </td>
             </tr>
           </tbody>
         </table>
       </section>
     </main>
+
+    <div class="modal-overlay active">
+      <div class="modal">Sexin</div>
+    </div>
 
     <footer class="container">
       DEV$ Finance - 2022 &copy; Maratorna de Programação | Rocketseat
