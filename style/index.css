@@ -6,7 +6,7 @@
   --blue: #3dd1f2;
   --dark-green: #012623;
   --ligth-green: #87d90d;
-  --orange: #f28907;
+  --red: #dc2f10;
   --white: #fff;
 }
 
@@ -91,8 +91,8 @@ button:hover {
 }
 
 .button.cancel {
-  color: var(--orange);
-  border: 2px var(--orange) solid;
+  color: var(--red);
+  border: 2px var(--red) solid;
   border-radius: 0.25rem;
   height: 50px;
   display: flex;
@@ -202,7 +202,7 @@ td.income {
 }
 
 td.expense {
-  color: var(--orange);
+  color: var(--red);
 }
 
 .modal-overlay {

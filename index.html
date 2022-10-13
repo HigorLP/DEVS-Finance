@@ -23,7 +23,7 @@
             <span>Entradas</span>
             <img src="./assets/income.svg" alt="Income Icon" />
           </h3>
-          <p>R$ 5.000,00</p>
+          <p id="incomeDisplay">R$ 0,00</p>
         </div>
 
         <div class="card">
@@ -31,7 +31,7 @@
             <span>Saídas</span>
             <img src="./assets/expense.svg" alt="Expense Icon" />
           </h3>
-          <p>R$ 2.000,00</p>
+          <p id="expenseDisplay">R$ 0,00</p>
         </div>
 
         <div class="card total">
@@ -39,7 +39,7 @@
             <span>Total</span>
             <img src="./assets/dollar.svg" alt="Dollar Icon" />
           </h3>
-          <p>R$ 3.000,00</p>
+          <p id="totalDisplay">R$ 0,00</p>
         </div>
       </section>
 
@@ -58,32 +58,7 @@
             <th></th>
           </thead>
 
-          <tbody>
-            <tr>
-              <td class="description">Salário</td>
-              <td class="income">R$ 3.000,00</td>
-              <td class="date">03/10/2022</td>
-              <td>
-                <img src="./assets/remove.svg" alt="Remove Transaction" />
-              </td>
-            </tr>
-            <tr>
-              <td class="description">Condomínio</td>
-              <td class="expense">- R$ 400,00</td>
-              <td class="date">15/10/2022</td>
-              <td>
-                <img src="./assets/remove.svg" alt="Remove Transaction" />
-              </td>
-            </tr>
-            <tr>
-              <td class="description">Energia</td>
-              <td class="expense">- R$ 200,00</td>
-              <td class="date">20/10/2022</td>
-              <td>
-                <img src="./assets/remove.svg" alt="Remove Transaction" />
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </section>
     </main>
@@ -93,7 +68,7 @@
         <div id="form">
           <h2>Nova Transação</h2>
 
-          <form action="">
+          <form action="" onsubmit="Form.submit(event)">
             <div class="input-group">
               <label for="description" class="sr-only">Descrição</label>
               <input
