@@ -15,8 +15,6 @@ Data de Criação => 11 de Outubro de 2022;
 Criação do HTML e CSS, Início da Estilização,
 Ainda não funcional.
 
-https://drive.google.com/file/d/1RPevwj4hdsUsyZff-i5nQNaLONO-HLax/view?usp=sharing (Certificação)
-
 --
 
 => 12 de Outubro de 2022 --> Finalização da Aula 02,
