@@ -71,9 +71,38 @@ a:hover {
   color: var(--ligth-green);
 }
 
+button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: var(--white);
+  background-color: var(--ligth-green);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #87d90db5;
+}
+
 .button.new {
   display: inline-block;
   margin-bottom: 0.8rem;
+}
+
+.button.cancel {
+  color: var(--orange);
+  border: 2px var(--orange) solid;
+  border-radius: 0.25rem;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.button.cancel:hover {
+  opacity: 1;
 }
 
 .container {
@@ -187,6 +216,7 @@ td.expense {
   justify-content: center;
   opacity: 0;
   visibility: hidden;
+  z-index: 999;
 }
 
 .modal-overlay.active {
@@ -198,6 +228,43 @@ td.expense {
   background-color: var(--grey);
   padding: 2.4rem;
   position: relative;
+  width: 90%;
+  max-width: 600px;
+  z-index: 1;
+}
+
+#form {
+  max-width: 500px;
+}
+
+#form h2 {
+  margin-top: 0;
+}
+
+input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.input-group {
+  margin-top: 0.8rem;
+}
+
+.input-group small {
+  opacity: 0.6;
+}
+
+.input-group.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+  width: 48%;
 }
 
 footer {
