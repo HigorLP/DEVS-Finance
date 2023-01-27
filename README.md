@@ -22,7 +22,7 @@ Open index.html in your browser
 If you would like to contribute to the project, please create a pull request with your changes and a brief explanation of what they do.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/HigorLP/DEVS-Finance/blob/main/LICENSE.md) - see the LICENSE file for details.
 
 ## Acknowledgments
 [Rocketseat](https://www.rocketseat.com.br/) for the guidance and support in creating this project.
